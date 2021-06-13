@@ -1,2 +1,2 @@
 # My-first-one
-Inicié este repositorio para practicar código
+Inicié este repositorio para practicar código.
