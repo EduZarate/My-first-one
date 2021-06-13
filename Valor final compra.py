@@ -4,8 +4,8 @@ el ingreso del precio del  artículo  y la  cantidad  de  artículos.
 Se  debe  considerar  la  aplicación  de impuestos por un valor de 21%
 del subtotal."""
 
+impuestos = 0.21
 precio = float(input("Ingrese precio de producto: "))
 cant = float(input("Ingrese cantidad: "))
-print ("El precio final es: ",precio * cant)
-
-
+subtotal = precio * cant
+print ("El precio final es: ",subtotal + (subtotal * impuestos))
